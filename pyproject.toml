@@ -1,6 +1,6 @@
 [project]
 name = "wanglib"
-version = "0.1.1"
+version = "0.1.2"
 description = "机器狗的Python前置包！"
 authors = [
     {name = "machinacanis", email = "hf4minecraft@163.com"},
@@ -9,6 +9,10 @@ dependencies = ["loguru>=0.7.3", "cachetools>=5.5.2"]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "MIT"}
+
+[project.urls]
+Homepage = "https://github.com/machinacanis/wanglib"
+Issues = "https://github.com/machinacanis/wanglib/issues"
 
 [build-system]
 requires = ["pdm-backend"]
