@@ -1,11 +1,11 @@
 [project]
 name = "wanglib"
-version = "0.1.0"
+version = "0.1.1"
 description = "机器狗的Python前置包！"
 authors = [
     {name = "machinacanis", email = "hf4minecraft@163.com"},
 ]
-dependencies = ["loguru>=0.7.3"]
+dependencies = ["loguru>=0.7.3", "cachetools>=5.5.2"]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "MIT"}
@@ -27,3 +27,9 @@ select = [         # 选择的规则
     "UP",
 ]
 ignore = ["F401"]  # 忽略的规则
+[dependency-groups]
+dev = [
+    "nonebot2[fastapi]>=2.4.2",
+    "nonebot-plugin-alconna>=0.57.6",
+    "nonebot-adapter-onebot>=2.4.6",
+]
