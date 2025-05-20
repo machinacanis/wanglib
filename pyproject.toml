@@ -1,6 +1,6 @@
 [project]
 name = "wanglib"
-version = "0.1.2"
+version = "0.1.3"
 description = "机器狗的Python前置包！"
 authors = [
     {name = "machinacanis", email = "hf4minecraft@163.com"},
